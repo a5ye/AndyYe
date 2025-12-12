@@ -1,0 +1,22 @@
+/* Small custom styling (still Bootstrap 4-based) */
+
+body { padding-top: 70px; } /* for fixed navbar */
+
+.hero {
+  background: linear-gradient(135deg, #0f172a 0%, #1f2937 55%, #0b1324 100%);
+  color: white;
+}
+
+.section-pad { padding: 60px 0; }
+
+.section-title {
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.project-card img {
+  object-fit: cover;
+  height: 200px;
+}
+
+a { word-break: break-word; }
